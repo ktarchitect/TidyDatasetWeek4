@@ -1,1 +1,2 @@
-# TidyDatasetWeek4
+# Human Activity Recognition with Smartphones Tidy Dataset
+
