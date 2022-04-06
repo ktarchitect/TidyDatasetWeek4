@@ -15,6 +15,15 @@ See the section "Feature Selection" on how the sensor data was collected and how
 
 Finally, see the "Summary dataset" section on how the tidy dataset was created as an output of the analysis for this assignment.
 
+Transformations
+=================
+1. Data Extract from the UCI repository
+2. Names of each variable were not included within the same file.  Thus, after loading the datasets, training-dataset and testing-dataset independent variables were named using the features.txt file.
+3. Created SampleType variable, which helps to differentiate which record is from "Train" datasets and which record is from "Test" datasets
+4. Merged the independent variables with the labels (activities) to create one dataset for "train" and one for "test"
+5. The subject-tables were merged with the "train" and "test dataset to be able to summarize by subject
+6. Combined "Train" set and "Test" set to create one flat file that includes all the information provided in the UCI zip file.
+
 Feature Selection 
 =================
 
